@@ -1,5 +1,5 @@
 require 'sinatra/base'
-require './hr-operation'
+require './code/hr-operation'
 
 class OperationApp < Sinatra::Base
   get '/' do
